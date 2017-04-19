@@ -1,7 +1,7 @@
 h1 .title {
     color: #000000;
     font-size: 30px;
-    line-height:  26px;  
+    line-height:  35px;  
     font-family: 'PT Sans Narrow';
     font-weight: bold;
 }
@@ -9,7 +9,7 @@ h1 .title {
 h2 .title {
     color: #000000;
     font-size: 24px;
-    line-height:  20px; 
+    line-height:  27px; 
     font-family: 'PT Sans Narrow';
     font-weight: bold; 
 }
@@ -17,7 +17,7 @@ h2 .title {
 body {
     color: #000000;
     font-size: 14px;
-    line-height:  12px; 
+    line-height:  16px; 
     font-family: 'PT Sans Narrow';
     font-weight: bold;
     
