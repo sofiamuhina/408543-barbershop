@@ -1,0 +1,24 @@
+h1 .title {
+    color: #000000;
+    font-size: 30px;
+    line-height:  26px;  
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+}
+
+h2 .title {
+    color: #000000;
+    font-size: 24px;
+    line-height:  20px; 
+    font-family: 'PT Sans Narrow';
+    font-weight: bold; 
+}
+
+body {
+    color: #000000;
+    font-size: 14px;
+    line-height:  12px; 
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+    
+}
