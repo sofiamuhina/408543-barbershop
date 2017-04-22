@@ -1,3 +1,12 @@
+body {
+    color: #000000;
+    font-size: 14px;
+    line-height:  16px; 
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+    
+}
+
 h1.title {
     color: #000000;
     font-size: 30px;
@@ -14,11 +23,98 @@ h2.title {
     font-weight: bold; 
 }
 
-body {
-    color: #000000;
-    font-size: 14px;
-    line-height:  16px; 
-    font-family: 'PT Sans Narrow';
-    font-weight: bold;
-    
+.clearfix:after { 
+    clear: both; 
+    content: ""; 
+    display: table; 
+} 
+
+
+.main_header {
+    height: 120px;
+    width: auto;
+    margin-bottom: 35px;
+    background-color: #fec37f;  
+}
+
+
+.main_header .container {   
+    width: 980px; 
+    margin: 0 auto; 
+    background-color: #f7de7b; 
+} 
+
+
+.main_navigation { 
+    float: left;       
+    width: 730px; 
+    margin: 0 10px;
+    background-color: #ffe6b1; 
+} 
+
+.enter { 
+    float: right; 
+    height: 72px; 
+    width: 140px; 
+    margin: 0 10px;
+    background-color: #ffe6b1; 
+}
+
+.main_container {
+    width: 980px; 
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-top: 1px;
+    min-height: 915px;
+    background-color: #6279a6;
+}
+
+.second_header {
+    width: 950px;
+    margin: 0 auto; 
+    min-height: 140px;
+    background-color: #bce2f6;  
+}
+
+.filters {
+    float: left;
+    width: 210px;
+    margin: 0 17px;
+    min-height: 400px;
+    background-color: #bccff6;   
+}
+
+.catalog {
+    float: left;
+    width: 720px; 
+    background-color: #bccff6;
+}
+
+.item {
+    float: left;
+    display: inline-block;
+    width: 225px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;   
+    background-color: #d2e4f3;
+}
+
+.main_footer .container {  
+    width: 980px;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #83cb85;
+}
+
+.contacts,
+.social,
+.copyright {
+    float: left;
+    width: 310px;
+    margin: 55px 0;
+    margin-left: 11px;
+    margin-right: 2px; 
+    background-color: #b0f0b2;
 }
