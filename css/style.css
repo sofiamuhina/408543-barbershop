@@ -90,7 +90,7 @@ h2.title {
     background-color: #bccff6;
 }
 
-.item {
+.catalog .item {
     float: left;
     display: inline-block;
     width: 225px;
@@ -118,3 +118,34 @@ h2.title {
     margin-right: 2px; 
     background-color: #b0f0b2;
 }
+
+.photo {
+    float: left;
+    width: 480px;
+    min-height: 690px;
+    margin: 0 15px;
+    background-color: #bccff6; 
+}
+
+.small_photo .item {
+    float: left;
+    display: inline-block;
+    width: 150px;
+    margin: 10px 5px;
+    background-color: #d2e4f3;  
+}
+
+.description {
+    float: left;
+    width: 445px; 
+    margin: 0 10px;
+    background-color: #bccff6;
+}
+
+.main_description,
+.including {
+    width: 380px;
+    margin: 0 10px;
+    background-color: #d2e4f3;
+}
+
